@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Handlee&family=Sono:wght@400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --text-color: #fff;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #30356e;
+  font-family: "Sono", sans-serif;
+  color: var(--text-color);
+}
+
+.container {
+  width: 50%;
+  display: flex;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: radial-gradient(
+    circle,
+    rgba(143, 146, 172, 1) 0%,
+    rgba(48, 53, 110, 1) 100%
+  );
+  border-radius: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+#joke {
+  font-family: "Handlee", cursive;
+  margin: 3.5rem;
+  font-size: 2rem;
+}
+
+#jokeBtn {
+  background-color: #eeb229;
+  border: none;
+  padding: 12px 15px;
+  margin-top: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+}
+
+#jokeBtn:hover {
+  font-size: 1.1rem;
+}
